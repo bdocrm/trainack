@@ -22,7 +22,8 @@ function isPublicPath(pathname: string): boolean {
   // Public session signing: /sessions/[id]/sign
   if (/^\/sessions\/[^/]+\/sign/.test(pathname)) return true;
 
-  // Public acknowledge API: /api/sessions/[id]/acknowledge
+  // Public session API: /api/sessions/[id] (needed by sign page) and /api/sessions/[id]/acknowledge
+  if (/^\/api\/sessions\/[^/]+$/.test(pathname)) return true;
   if (/^\/api\/sessions\/[^/]+\/acknowledge/.test(pathname)) return true;
 
   // Static files and Next.js internals
