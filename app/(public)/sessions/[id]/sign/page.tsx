@@ -47,21 +47,21 @@ export default function SignPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[#F5F6FA] py-8 px-4 print:bg-white print:py-0">
+    <div className="min-h-screen bg-[#F5F6FA] py-4 sm:py-8 px-3 sm:px-4 print:bg-white print:py-0">
       <div className="max-w-2xl mx-auto">
         {/* Document Header */}
-        <div className="bg-gradient-to-r from-[#160D76] to-[#1E1199] text-white rounded-t-2xl px-8 py-6 print:rounded-none">
-          <div className="flex items-center justify-between">
+        <div className="bg-gradient-to-r from-[#160D76] to-[#1E1199] text-white rounded-t-2xl px-5 sm:px-8 py-5 sm:py-6 print:rounded-none">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div className="flex items-center gap-3">
-              <AnimatedLogo size={44} />
+              <AnimatedLogo size={36} />
               <div>
-                <span className="font-bold text-base font-[Sora] tracking-wide block">TRAINING</span>
+                <span className="font-bold text-sm font-[Sora] tracking-wide block">TRAINING</span>
                 <span className="text-[#4094d9] text-[10px] font-semibold tracking-[3px] block">ACKNOWLEDGEMENT</span>
               </div>
             </div>
-            <div className="text-right">
-              <p className="text-xs text-white/50 uppercase tracking-widest">Official Document</p>
-              <p className="font-semibold font-[Sora] text-sm">Training Acknowledgment Form</p>
+            <div className="sm:text-right">
+              <p className="text-[10px] text-white/50 uppercase tracking-widest">Official Document</p>
+              <p className="font-semibold font-[Sora] text-xs sm:text-sm">Training Acknowledgment Form</p>
             </div>
           </div>
           {/* Brand underline */}
@@ -74,7 +74,7 @@ export default function SignPage() {
 
         <div className="bg-white shadow-lg rounded-b-2xl print:shadow-none print:rounded-none">
           {/* Session Info */}
-          <div className="px-8 py-6 border-b border-[#E2E8F0]">
+          <div className="px-5 sm:px-8 py-5 sm:py-6 border-b border-[#E2E8F0]">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
               {[
                 { label: 'Session', value: session.title },
@@ -84,8 +84,8 @@ export default function SignPage() {
                 { label: 'Location', value: session.location },
               ].map(({ label, value }) => (
                 <div key={label} className="flex flex-col">
-                  <span className="text-xs text-[#64748B] uppercase tracking-wide">{label}</span>
-                  <span className="font-medium text-[#0F172A] mt-0.5">{value}</span>
+                  <span className="text-[10px] sm:text-xs text-[#64748B] uppercase tracking-wide">{label}</span>
+                  <span className="font-medium text-[#0F172A] text-sm mt-0.5">{value}</span>
                 </div>
               ))}
             </div>
@@ -93,14 +93,14 @@ export default function SignPage() {
 
           {/* Features */}
           {session.coveredFeatures.length > 0 && (
-            <div className="px-8 py-6 border-b border-[#E2E8F0]">
-              <h3 className="text-sm font-semibold uppercase tracking-wider text-[#64748B] mb-4">Features & Functions Covered</h3>
+            <div className="px-5 sm:px-8 py-5 sm:py-6 border-b border-[#E2E8F0]">
+              <h3 className="text-xs sm:text-sm font-semibold uppercase tracking-wider text-[#64748B] mb-4">Features & Functions Covered</h3>
               <FeatureList features={session.coveredFeatures} />
             </div>
           )}
 
           {/* Form or Already Signed */}
-          <div className="px-8 py-6">
+          <div className="px-5 sm:px-8 py-5 sm:py-6">
             <AcknowledgmentForm
               sessionId={id}
               trainerName={session.trainerId}

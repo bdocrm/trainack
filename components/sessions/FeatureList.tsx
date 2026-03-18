@@ -49,7 +49,7 @@ export default function FeatureList({ features, selectable, selected = [], onTog
                     onClick={() => selectable && onToggle?.(feature.id)}
                     onKeyDown={e => selectable && e.key === 'Enter' && onToggle?.(feature.id)}
                     className={clsx(
-                      'flex items-start gap-3 p-3 rounded-lg border transition-all',
+                      'flex items-start gap-2.5 p-2.5 sm:p-3 rounded-lg border transition-all',
                       selectable && 'cursor-pointer',
                       isSelected || !selectable
                         ? 'border-[#4094d9]/40 bg-[#4094d9]/5'
@@ -70,9 +70,9 @@ export default function FeatureList({ features, selectable, selected = [], onTog
                     ) : (
                       <CheckCircleIcon className="w-5 h-5 text-[#4094d9] flex-shrink-0 mt-0.5" />
                     )}
-                    <div>
-                      <p className="text-sm font-medium text-[#0F172A]">{feature.title}</p>
-                      <p className="text-sm text-[#64748B] mt-0.5 leading-relaxed">{feature.description}</p>
+                    <div className="min-w-0">
+                      <p className="text-xs sm:text-sm font-medium text-[#0F172A]">{feature.title}</p>
+                      <p className="text-xs sm:text-sm text-[#64748B] mt-0.5 leading-relaxed break-words">{feature.description}</p>
                     </div>
                   </div>
                 );

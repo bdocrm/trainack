@@ -52,10 +52,10 @@ export default function AcknowledgmentForm({ sessionId, trainerName, onSuccess }
   };
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
-      <div className="bg-slate-50 border border-[#E2E8F0] rounded-xl p-5 text-sm text-[#0F172A] leading-relaxed">
-        <p className="font-semibold text-[#160D76] mb-2 font-[Sora]">ACKNOWLEDGMENT STATEMENT</p>
-        <p>
+    <form onSubmit={handleSubmit} className="space-y-5">
+      <div className="bg-slate-50 border border-[#E2E8F0] rounded-xl p-4 sm:p-5 text-sm text-[#0F172A] leading-relaxed">
+        <p className="font-semibold text-[#160D76] mb-2 font-[Sora] text-xs sm:text-sm">ACKNOWLEDGMENT STATEMENT</p>
+        <p className="text-xs sm:text-sm">
           I, the undersigned, acknowledge that I have attended and participated in the system walkthrough and training conducted
           by <strong>{trainerName}</strong> on the above date. I confirm that the features listed above were demonstrated and
           explained to me, and I understand how to use them.
