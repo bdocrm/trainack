@@ -1,0 +1,49 @@
+<svg width="100%" viewBox="0 0 680 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    
+  </defs>
+
+  <!-- ── ICON MARK (left) ── -->
+  <g transform="translate(110, 110)" style="fill:rgb(0, 0, 0);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">
+
+    <!-- Outer arc ring — Navy Blue -->
+    <path d="M -82 0 A 82 82 0 1 1 82 0" fill="none" stroke="#160D76" stroke-width="14" stroke-linecap="round" style="fill:none;stroke:rgb(22, 13, 118);color:rgb(0, 0, 0);stroke-width:14px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <!-- Mid arc ring — Tufts Blue -->
+    <path d="M -62 0 A 62 62 0 1 1 62 0" fill="none" stroke="#4094d9" stroke-width="11" stroke-linecap="round" style="fill:none;stroke:rgb(64, 148, 217);color:rgb(0, 0, 0);stroke-width:11px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <!-- Inner arc ring — Cadmium Orange -->
+    <path d="M -42 0 A 42 42 0 1 1 42 0" fill="none" stroke="#F08530" stroke-width="8" stroke-linecap="round" style="fill:none;stroke:rgb(240, 133, 48);color:rgb(0, 0, 0);stroke-width:8px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Shield body — Navy -->
+    <path d="M 0 -18 L -20 -8 L -20 14 Q -20 34 0 42 Q 20 34 20 14 L 20 -8 Z" fill="#160D76" style="fill:rgb(22, 13, 118);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Checkmark — Baby Powder -->
+    <polyline points="-9,14 -2,23 12,4" fill="none" stroke="#FFFFFA" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" style="fill:none;stroke:rgb(255, 255, 250);color:rgb(0, 0, 0);stroke-width:4px;stroke-linecap:round;stroke-linejoin:round;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+    <!-- Radiant sparks -->
+    <line x1="0" y1="-96" x2="0" y2="-86" stroke="#F08530" stroke-width="3" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(240, 133, 48);color:rgb(0, 0, 0);stroke-width:3px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <line x1="68" y1="-68" x2="61" y2="-61" stroke="#4094d9" stroke-width="2.5" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(64, 148, 217);color:rgb(0, 0, 0);stroke-width:2.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <line x1="96" y1="0" x2="86" y2="0" stroke="#F08530" stroke-width="3" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(240, 133, 48);color:rgb(0, 0, 0);stroke-width:3px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <line x1="-68" y1="-68" x2="-61" y2="-61" stroke="#4094d9" stroke-width="2.5" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(64, 148, 217);color:rgb(0, 0, 0);stroke-width:2.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+    <line x1="-96" y1="0" x2="-86" y2="0" stroke="#F08530" stroke-width="2.5" stroke-linecap="round" style="fill:rgb(0, 0, 0);stroke:rgb(240, 133, 48);color:rgb(0, 0, 0);stroke-width:2.5px;stroke-linecap:round;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  </g>
+
+  <!-- ── VERTICAL DIVIDER ── -->
+  <line x1="232" y1="36" x2="232" y2="184" stroke="#222222" stroke-width="1" opacity="0.15" style="fill:rgb(0, 0, 0);stroke:rgb(34, 34, 34);color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.15;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ── WORDMARK (right) ── -->
+  <!-- TRAINING -->
+  <text x="256" y="104" font-size="46" font-weight="700" letter-spacing="6" fill="#160D76" style="fill:rgb(22, 13, 118);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:Cardo, Georgia, serif;font-size:46px;font-weight:700;text-anchor:start;dominant-baseline:auto">TRAINING</text>
+
+  <!-- Three-color underline -->
+  <rect x="256" y="114" width="90" height="3" rx="1.5" fill="#160D76" style="fill:rgb(22, 13, 118);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="350" y="114" width="76" height="3" rx="1.5" fill="#4094d9" style="fill:rgb(64, 148, 217);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <rect x="430" y="114" width="76" height="3" rx="1.5" fill="#F08530" style="fill:rgb(240, 133, 48);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- ACKNOWLEDGEMENT -->
+  <text x="258" y="143" font-size="13" font-weight="600" letter-spacing="5" fill="#4094d9" style="fill:rgb(64, 148, 217);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Open Sans&quot;, sans-serif;font-size:13px;font-weight:600;text-anchor:start;dominant-baseline:auto">ACKNOWLEDGEMENT</text>
+
+  <!-- Tagline -->
+  <text x="260" y="168" font-size="9" font-weight="400" letter-spacing="2.5" fill="#222222" opacity="0.38" style="fill:rgb(34, 34, 34);stroke:none;color:rgb(0, 0, 0);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:0.38;font-family:&quot;Open Sans&quot;, sans-serif;font-size:9px;font-weight:400;text-anchor:start;dominant-baseline:auto">CERTIFIED · VERIFIED · RECOGNIZED</text>
+
+</svg>
